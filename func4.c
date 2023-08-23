@@ -16,7 +16,7 @@ int _putsfd(char *str, int fd)
 int _erratoi(char *s)
 {
 	int i = 0;
-	int result = 0;/*unsign long*/
+	int result = 0;
 
 	if (*s == '+')
 		s++;
