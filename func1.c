@@ -16,14 +16,6 @@ int delimeter(char c, char *delim)
 	return (0);
 }
 
-/*int alphabet(int c)
-{
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-		return (1);
-	else
-		return (0);
-}*/
-
 int _atoi(char *s)
 {
 	int i = 0;
