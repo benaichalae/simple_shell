@@ -1,6 +1,6 @@
 #include "shell.h"
 
-int Mexit(info_t *info)/*_myexit*/
+int Mexit(info_t *info)
 {
 	int check;
 
@@ -22,7 +22,7 @@ int Mexit(info_t *info)/*_myexit*/
 	return (-2);
 }
 
-int Mhelp(info_t *info)/*_myhelp*/
+int Mhelp(info_t *info)
 {
 	char **arg_array;
 
