@@ -16,13 +16,13 @@ int delimeter(char c, char *delim)/*is_delim*/
 	return (0);
 }
 
-int alphabet(int c)/*_isalpha*/
+/*int alphabet(int c)/*_isalpha*/
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	else
 		return (0);
-}
+}*/
 
 int _atoi(char *s)
 {
