@@ -6,7 +6,7 @@ int interactive(info_t *info)
 }
 
 
-int delimeter(char c, char *delim)/*is_delim*/
+int delimeter(char c, char *delim)
 {
 	for (; *delim; delim++)
 	{
@@ -16,7 +16,7 @@ int delimeter(char c, char *delim)/*is_delim*/
 	return (0);
 }
 
-/*int alphabet(int c)/*_isalpha*/
+/*int alphabet(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
